@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+}
+
+header, main, footer {
+    border: 2px solid red;
+    margin: 5px;
+    padding: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+.menu {
+    border: 1px solid red;
+    width: 400px;
+    float: right;
+    margin-top: 40px;
+}
+
+.menu li, .footer li {
+    display: inline;
+}
+
+.menu ul, .footer ul {
+    padding: 40px 10px;
+}
+
+.footer {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+p {
+    text-align: justify;
+    padding: 5px;
+    text-indent: 15px;
+}
