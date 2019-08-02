@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #d6d6e6;
+  font-size: 12pt;
+  font-family: Tahoma, sans-serif; }
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 40px;
+  color: HSL(200, 80%, 50%); }
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  background: #ffffff;
+  text-align: center; }
+
+label {
+  margin: 20px; }
+
+.error {
+  color: red; }
+
+input[type=text] {
+  width: 300px;
+  padding: 10px;
+  font-size: 11pt;
+  margin: 10px 0;
+  border: 1px solid #777;
+  border-radius: 6px; }
+
+button {
+  font-size: 14pt;
+  padding: 6px; }
+
+.message {
+  margin: 80px auto 80px; }
+
+p {
+  margin: 6px 0; }
